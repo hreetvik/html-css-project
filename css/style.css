@@ -1,0 +1,175 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+}
+header{
+    background-color: #f3f3f3
+    ;
+}
+header img{
+    display: block;
+    height: 100px;
+}
+nav{
+    background-color: #48a24f;
+}
+nav a{
+    padding: 19px 20px;
+    color: #f5f094;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.active{
+    background-color: #CC00FF;
+}
+.special{
+    background-color: #7c7c76;
+    float: right;
+}
+nav a:hover{
+    background-color: #2d2b2d;
+
+}
+#banner{
+    background-color: yellow;
+
+}
+.info{
+    display: flex;
+    padding: 20px 0;
+}
+.info img,.text{
+    width: 50%;
+}
+.text{
+    padding-left: 30px;
+}
+.text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #CC00FF;
+    margin-top: 40px;
+}
+.text p{
+    color:palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    padding-top: 20px;
+}
+/* about page ko css */
+#about{
+    padding: 30px 0;
+}
+#about h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aquamarine;
+    padding-bottom: 10px;
+}
+#about img{
+    width: 100%;
+}
+#about p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #2d2b2d;
+    padding: 10px 0;
+}
+/* css for contact page*/
+#contact{
+    padding: 30px 0;
+}
+.contact{
+    display: flex;
+}
+.form{
+    width: 50%;
+}
+.form label{
+    display: block;
+    font: bold 16px georgia;
+    padding: 2px 0;
+}
+.form input, .form select, .form textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+}
+.map{
+    width: 50%;
+    padding: 20px;
+}
+#contact h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aquamarine;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer{
+        background-color: #2d2b2d;
+        padding: 30px 0;
+        color: wheat;
+ }
+    .footer_box{
+        display:flex;
+    }
+    .footer_box_1{
+        width: 60%;
+    }
+    .footer_box_2{
+        width: 40%;
+ }
+.footer_box_1 img{
+    display: inline-block;
+    height: 100px;
+}
+.footer_box_1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: plum;
+    padding-top: 10px;
+}   
+.footer_box_2 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #48a24f;
+    padding-bottom: 10px;
+}
+.footer_box_2 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: aquamarine;
+}
